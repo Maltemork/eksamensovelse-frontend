@@ -1,0 +1,46 @@
+#deliveryTable {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+#tableHead {
+  background-color: #41506b;
+  color: #90f6d7;
+}
+
+#tableHead th:hover {
+  cursor: pointer;
+}
+
+/* Alternating table item background */
+
+#deliveryTable tr:nth-child(even) {
+  background-color: #26384956;
+}
+
+#searchField {
+  margin-bottom: 10px;
+}
+
+#add-delivery-button a {
+  color: white;
+  text-decoration: none;
+}
+
+#deliveryTable button,
+#add-delivery-button {
+  margin-left: 10px;
+  background: #00aaad;
+  color: white;
+  border: none;
+  border-radius: 0px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#deliveryTable button:hover,
+#add-delivery-button:hover {
+  background: #0ebdc0;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+#add-delivery-form {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  margin: 20px auto;
+  background: #41506b91;
+  border: 1px solid #35bcbf;
+  border-radius: 20px;
+  padding: 20px;
+  width: 35%;
+}
+
+#add-delivery-form h1 {
+  color: #90f6d7;
+  text-align: center;
+}
+
+.double-griditem {
+  margin: 0 auto;
+  grid-column: span 2;
+}
+
+#submit-button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 0px;
+  background: #00aaad;
+  color: white;
+  border: none;
+  transition: 0.3s;
+  margin: 20px auto;
+}
+
+#submit-button:hover {
+  background: #263849;
+  color: #90f6d7;
+  transition: 0.3s;
+  cursor: pointer;
+}
